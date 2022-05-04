@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+var tipo_combustivel = 0;
+var contador_tipo1 = 0;
+var contador_tipo2 = 0;
+var contador_tipo3 = 0;
+
+while(tipo_combustivel != 4){
+    tipo_combustivel = parseInt(prompt("Digite o tipo do combustivel: "));
+    if(tipo_combustivel == 1){
+         contador_tipo1++;
+    }
+    if(tipo_combustivel == 2){
+        contador_tipo2++;
+        
+    }
+    if(tipo_combustivel == 3){
+            contador_tipo3++; 
+        
+    }                  
+        }
+console.log(" MUITO OBRIGADO ");
+console.log("Alcool: " + contador_tipo1);
+console.log("Gasolina: " + contador_tipo2);
+console.log("Diesel: " + contador_tipo3);
+    </script>
+</body>
+</html>

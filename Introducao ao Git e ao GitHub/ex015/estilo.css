@@ -1,0 +1,37 @@
+body {
+
+background: rgb(63, 155, 209);
+font-family: 'Great Vibes', cursive;
+font-size: 35px;
+
+
+}
+
+header {
+
+    color:white;
+    text-align:center;
+
+}
+
+
+section {
+
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width:500px;
+    margin:auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.361);
+   
+
+}
+
+footer {
+
+color:white;
+text-align:center;
+font-style:italic;
+
+
+}
